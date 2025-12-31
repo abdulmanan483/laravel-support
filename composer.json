@@ -1,26 +1,26 @@
 {
-    "name":        "arcanedev/support",
-    "description": "ARCANEDEV Support Helpers",
-    "keywords":    ["arcanedev", "arcanesoft", "support", "laravel"],
-    "homepage":    "https://github.com/ARCANEDEV/Support",
+    "name":        "abdulmanan483/laravel-support",
+    "description": "Laravel Support Helpers",
+    "keywords":    ["abdulmanan483", "abdulmananww", "support", "laravel"],
+    "homepage":    "https://github.com/abdulmanan483/laravel-support",
     "authors": [
         {
-            "name":     "ARCANEDEV",
-            "email":    "arcanedev.maroc@gmail.com",
-            "homepage": "https://github.com/arcanedev-maroc"
+            "name":     "Abdul Manan",
+            "email":    "abdulmananww@gmail.com",
+            "homepage": "https://github.com/abdulmanan483"
         }
     ],
     "type":    "library",
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "illuminate/contracts": "^11.0",
-        "illuminate/support": "^11.0"
+        "illuminate/contracts": "^12.0",
+        "illuminate/support": "^12.0"
     },
     "require-dev": {
-        "laravel/framework": "^11.0",
-        "orchestra/testbench-core": "^9.0",
-        "phpunit/phpunit": "^10.5"
+        "laravel/framework": "^12.0",
+        "orchestra/testbench-core": "^10.0",
+        "phpunit/phpunit": "^11"
     },
     "autoload": {
         "psr-4": {
@@ -37,11 +37,6 @@
         "test": "phpunit --colors=always",
         "test:dox": "phpunit --testdox --colors=always",
         "test:cov": "phpunit --coverage-html coverage"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-develop": "11.x-dev"
-        }
     },
     "config": {
         "sort-packages": true
